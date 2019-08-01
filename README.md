@@ -11,26 +11,23 @@ git clone git@github.com:xxxx/jdbc-pool.git
 
 ##### 第三部：切换至远程分支dev_20190801
 ```
-git checkout origin/dev_20190801
+git checkout dev_20190801
 ```
-
-##### 第四部：第三步：基于远程分支3.1.0-dev新建本地分支3.1.0-dev（注意远程分支和本地分支的区别，名字一样，但是一个是远程，一个是本地）
-```
-git checkout -b dev_20190801
-```
-##### 第五步：在该分支提交你的更改，然后提交
+##### 第四步：在该分支提交你的更改，然后提交
 ```
 git commit -m "xxx的数据库连接池"
 ```
-##### 第六步：提交到远程仓库，至此终端上的操作完成。进入github网页操作。
+##### 第五步：提交到远程仓库，至此终端上的操作完成。进入github网页操作。
 ```
 git push -u origin master
 ```
 如下，点击create pull request来填写说明
 ![image](https://user-images.githubusercontent.com/3505708/62277853-91b34c00-b479-11e9-9c7f-89761288a738.png)
 
+然后点击Create pull request按钮，提交PR，等待作者审核
 
 ![image](https://user-images.githubusercontent.com/3505708/62278130-0b4b3a00-b47a-11e9-9899-814ee67826cf.png)
+
 
 ##### 注意事项：
 - 请填写你的设计的思路
